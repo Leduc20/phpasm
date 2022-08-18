@@ -1,0 +1,32 @@
+.user{
+    border-bottom: 1px solid rgb(173, 171, 171);
+    border-radius: 2px;
+    width: 92%;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+.user:focus{
+    border-color: aqua;
+}
+.form-field{
+    position: relative;
+    
+}
+.name{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 21px;
+    user-select: none;
+    color: red;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+.user:not(:placeholder-shown)+.name,
+.user:focus+.name{
+    top: 0;
+    padding: 7px;
+    left: 11px;
+    display: inline-block;
+    background-color: white;
+}

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .mega-sub-item{
+        @appply block p-2 hover:bg-white  cursor-pointer;
+    }
+    .mega-sub-item-title{
+        @apply block text-xl mb-5;
+    }
+}

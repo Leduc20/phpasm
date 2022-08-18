@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin tức</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto Slab', serif;
+        }
+        #hover:hover{
+            transform: scale(1.1);
+            transition: all 0.2s linear;
+        }
+    </style>
+</head>
+
+<body onload="loadAnh()">
+    <section class="max-w">
+        <div class="mx-auto bg-slate-300">
+            <div class="flex justify-between max-w-[1200px] mx-auto leading-[45px]">
+                <div>
+                    <a href="">
+                        <p>
+                            WEBSITE ĐIỆN TỬ ĐIỆN MÁY
+                        </p>
+                    </a>
+                </div>
+                <div class="flex justify-between">
+                    <p class="mr-8">
+                        KHUYẾN MẠI HOT
+                    </p>
+                    <div class="flex">
+                        <a href="" class="px-2"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="" class="px-2"><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-between mx-auto max-w-[1200px] mt-5 items-center">
+            <div>
+                <a href=""><img src="image/logo-topweb2.png" alt=""></a>
+            </div>
+            <div>
+                <form action="">
+                    <select name="" id="" class="border-[1px] w-[80px]">
+                        <option value="">Tất cả</option>
+                        <option value="">A</option>
+                        <option value="">b</option>
+                        <option value="">c</option>
+                    </select>
+                    <input class="border-[1px] w-[295px]" type="text" name="" id="">
+                    <button class="border-[1px] w-[45px] bg-orange-300" type="submit"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <!-- Login/Cart -->
+            <div>
+                <form action="">
+                    <a class="px-2 hover:bg-red-400 hover:border-[2px]" href="loginform.php">ĐĂNG NHẬP</a>
+                    <a class="px-2 hover:bg-red-400 hover:border-[2px]" href="">GIỎ HÀNG</a>
+                </form>
+            </div>
+        </div>
+        <!-- nav -->
+        <div class="mx-auto max-w bg-[#0088CC] mt-2">
+            <div class="max-w-[1200px] mx-auto py-2">
+                <ul class="flex justify-start text-white ">
+                    <li class="ml-4"><a class="hover:text-[#EEEE22]" href="index.php">TRANG CHỦ</a></li>
+                    <li class="ml-4"><a class="hover:text-[#EEEE22]" href="">GIỚI THIỆU</a></li>
+                    <li class="ml-4"><a class="hover:text-[#EEEE22]" href="">SẢN PHẨM</a></li>
+                    <!-- <li class="ml-4"><a class="hover:text-[#EEEE22]" href="">HƯỚNG DẪN MUA HÀNG</a></li> -->
+                    <li class="ml-4"><a class="hover:text-[#EEEE22]" href="tintuc.html">TIN TỨC</a></li>
+                    <li class="ml-4"><a class="hover:text-[#EEEE22]" href="lienhe.html">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    <section class="max-w-full">
+        <div class="max-w-[1200px] mx-auto">
+            <!-- img product -->
+            <!-- <div class="flex grid grid-cols-2 ">
+                <div>
+                    <img class="w-[100%] p-4" src="image/iphone 12 pro max.jpg" alt="">
+                </div>
+                <div class="mt-[60px]">
+                    <p class="text-[25px] font-bold">IPHONE 13 PRO</p>
+                    <div class="py-5 text-[25px]">
+                        <label class="line-through">16.000.000 VNĐ </label><label class="text-red-700 ml-3">15.000.000
+                            VNĐ</label>
+                    </div>
+                    <div class="">
+                        <div class="w-[199px] items-center">
+                            <input class="border-[1px] w-[30px] p-1" type="button" name="" id="" value="-">
+                            <input class="border-[1px] text-center p-1" type="number" name="" id="" step="1" min="1"
+                                max="100" value="1" pattern="[0-9]*">
+                            <input class="border-[1px] w-[30px] p-1" type="button" name="" id="" value="+">
+                        </div>
+    
+                    </div>
+                    <div class="border-[1px] mt-4 w-[190px] text-center  bg-[#FF9200] hover:bg-orange-700">
+                        <button class="h-[45px] w-[160px] font-bold text-white">Thêm Vào Giỏ Hàng</button>
+                    </div>
+            </div> -->
+            <div>
+                <p class="text-center text-[25px] font-bold py-6">LƯU TRỮ DANH MỤC: TIN TỨC</p>
+                <div class="flex">
+                    <div class="w-[800px] mt-5 border-r-[1px]">
+                        <div class="grid grid-cols-2">
+                            <img id="hover" class="w-full hover:border-[1px] hover:border-teal-300" src="image/cong-nghe-3-300x169.jpg" alt="">
+                            <div class="ml-4">
+                                <a href=""><h2 class="text-[20px] font-bold">Sức mạnh công nghệ rồi sẽ triệt tiêu cảm xúc trong bóng đá?</h2></a>
+                                <a class="" href="">Người hâm mộ sẽ dễ dàng nhận thấy sự khác biệt tại World Cup 2018[...]</a>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 py-5">
+                            <img id="hover" class="w-full hover:border-[1px] hover:border-teal-300" src="image/cong-nghe-2-300x169.jpg" alt="">
+                            <div class="ml-4">
+                                <a href=""><h2 class="text-[20px] font-bold">Samsung giành được bằng sáng chế điện thoại với màn hình phụ</h2></a>
+                                <a class="" href="">Vừa qua, Samsung đã nhận được một bằng sáng chế khá thú vị. Bằng sáng[...]</a>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2">
+                            <img id="hover" class="w-full hover:border-[1px] hover:border-teal-300" src="image/cong-nghe-1-300x169.jpg" alt="">
+                            <div class="ml-4">
+                                <a href=""><h2 class="text-[20px] font-bold">Apple đã từng muốn bỏ hết cổng kết nối trên iPhone X</h2></a>
+                                <a class="" href="">Theo báo cáo mới đây từ Bloomberg, Apple từ đầu đã cân nhắc ý tưởng[...]</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="w-[400px] mt-4">
+                        <div class="ml-3">
+                            <input class="border p-3" type="text" placeholder="Tìm Kiếm . . .">
+                            <button class="border p-3 bg-[#FF9200] hover:bg-orange-600"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <div class="ml-3 mt-4">
+                            <p class="text-[18px] font-bold py-2">BÀI VIẾT MỚI</p>
+                            <div class="py-4 border-b hover:text-[#0088CC]">
+                                <a href="">Sức mạnh công nghệ rồi sẽ triệt tiêu cảm xúc trong bóng đá?</a> <br>
+                            </div>
+                            <div class="py-4 border-b hover:text-[#0088CC]">
+                                <a href="">Samsung giành được bằng sáng chế điện thoại với màn hình phụ</a> <br>
+                            </div>
+                            <div class="py-4 border-b hover:text-[#0088CC]">
+                                <a href="">Apple đã từng muốn bỏ hết cổng kết nối trên iPhone X</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- footer -->
+        <div class="bg-sky-600">
+            <div class="flex grid grid-cols-4 gap-4 max-w-[1200px] mx-auto mt-[40px] text-white">
+                <div class="mt-8">
+                    <p>HOTLINE</p>
+                    <div>
+                        <p class="py-6">Gọi mua hàng 1800.1060 (7:30 - 22:00)</p>
+                        <p class="py-6">Gọi khiếu nại 1800.1062 (8:00 - 21:30)</p>
+                        <p class="py-6">Gọi bảo hành 1800.1064 (8:00 - 21:00)</p>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <p>THÔNG TIN</p>
+                    <div>
+                        <p class="py-4  border-b-[1px]"><a href="">Trang chủ</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Giới thiệu</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Sản phẩm</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Hướng dẫn mua hàng</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Tin tức</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Liên hệ</a></p>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <p>SẢN PHẨN</p>
+                    <div>
+                        <p class="py-4  border-b-[1px]"><a href="">Trang chủ</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Giới thiệu</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Sản phẩm</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Hướng dẫn mua hàng</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Tin tức</a></p>
+                        <p class="py-4  border-b-[1px]"><a href="">Liên hệ</a></p>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <p>FACEBOOK</p>
+                </div>
+
+            </div>
+            <div class="flex justify-between max-w-[1200px] mx-auto text-white mt-8">
+                <p>Copyright 2022 © Thiết kế website Hà Nội bởi Topweb.com.vn</p>
+                <div class="text-[35px]">
+                    <a href=""><i class="fa-brands fa-cc-visa"></i></a>
+                    <a href=""><i class="fa-brands fa-cc-paypal"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
+<script src="js/js.js"></script>

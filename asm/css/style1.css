@@ -1,0 +1,67 @@
+/* 
+.containerslide img{
+    width: 100%;
+    margin-top: -15px;
+}
+
+.left{
+    position: relative;
+    top: -250px;
+    padding: 19px;
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+    border-radius: 0px 3px 3px 0px;
+}
+.right{
+    position: relative;
+    top: -250px;
+    padding: 19px;
+    float: right;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+    border-radius: 3px 0px 0px 3px;
+   
+    
+}
+.left:hover, .right:hover{
+    background-color: rgba(115, 115, 115, 0.8);
+}
+#mySlide{
+    width: 100%;
+}
+article{
+    height: 195px;
+    padding: 30px;
+    margin-left: -35px;
+} */
+
+.header{
+    background-image: linear-gradient(to bottom,#bdc3c7,#d7e8f8)
+}
+.cart:hover{
+    background-image: linear-gradient(to right,#c471ed,#f64f59)
+}
+.hoverproduct{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom right,#fafafa,rgb(241, 37, 37));
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0;
+    text-align: center;
+    margin-left: 55px;
+    position: absolute;
+    bottom: 115px;
+    transition: all 0.2s linear;
+}
+.Myhover:hover .hoverproduct{
+    opacity: 1;
+    border: none;
+}
